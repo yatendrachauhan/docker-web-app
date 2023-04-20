@@ -1,0 +1,22 @@
+{
+  "name": "docker-web-app",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yatendrachauhan/docker-web-app.git"
+  },
+  "author": "Yatendra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yatendrachauhan/docker-web-app/issues"
+  },
+  "homepage": "https://github.com/yatendrachauhan/docker-web-app#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
