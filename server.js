@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Hello World');
+  res.send('Demo app for testing docker and kubernates on GCP.');
 });
 
 app.listen(PORT, HOST, () => {
